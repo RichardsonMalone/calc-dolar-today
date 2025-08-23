@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background: linear-gradient(135deg, #228d57, #85bb65);
+  min-height: 82.5vh;
+}
+h1 {
+  color: #000000;
+}
 .text1 {
   text-align: center;
   display: flex;
@@ -14,8 +21,8 @@
 form {
   text-align: center;
 }
+
 input {
-  background-color: white;
   border: none;
   outline: none;
   height: 4em;
@@ -23,4 +30,21 @@ input {
 }
 label {
   font-size: 30px;
+}
+form,
+label,
+input {
+  background-color: #fff;
+  margin: 20px auto;
+  margin-left: 500px;
+  margin-right: 500px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer{
+  text-align: center;
 }
