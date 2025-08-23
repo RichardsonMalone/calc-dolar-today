@@ -2,13 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  background: linear-gradient(135deg, #228d57, #85bb65);
+  background: linear-gradient(135deg, #11998e, #38ef7d);
   min-height: 82.5vh;
 }
 h1 {
-  color: #000000;
+  color: #fff;
+  font-weight: 20;
+  font-family: fantasy, sans-serif;
 }
 .text1 {
   text-align: center;
@@ -27,9 +30,13 @@ input {
   outline: none;
   height: 4em;
   font-size: 30px;
+  font-weight: bold;
+  font-family: "inter", sans-serif;
 }
 label {
-  font-size: 30px;
+  font-size: 40px;
+  font-family: sans-serif, fantasy;
+  font-weight: bold;
 }
 form,
 label,
@@ -45,6 +52,8 @@ input {
   align-items: center;
   text-align: center;
 }
-footer{
+footer {
   text-align: center;
+  font-family: "inter", sans-serif;
+  font-weight: 400;
 }
